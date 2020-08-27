@@ -1,0 +1,109 @@
+p{
+    color: #000000;
+    font-family: Calibri Light;
+    line-height: 150%;
+    font-weight: normal;
+    /*background-image:url("geetha.jpg");*/
+    /*background-repeat:repeat-x;*/
+    /*background-position: center;*/
+    /*background-size: 200px;*/
+    background-color: #c6927f;
+    margin: 20px;
+}
+h1{
+    color: #971d00;
+    font-family: Calibri;
+    text-align: center;
+    background-color: darkgray;
+    padding: 15px;
+    border-color: dimgray;
+    border-style: dashed;
+    border-width: medium;
+    height: 40px;
+}
+ul{
+    color: chocolate;
+    font-weight: bold;
+    list-style-type: none; /*katakana*/
+    border: 1px firebrick solid;
+    padding: 0px;
+    /*list-style-image: url("check.png") ;*/
+}
+ol{
+    color: firebrick;
+    font-weight: lighter;
+}
+body{
+    background-color:blanchedalmond;
+
+}
+a:link{
+    color: gold;
+}
+a:visited{
+    color: goldenrod;
+}
+a:hover{
+    background-color: midnightblue;
+    color: aliceblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:active{
+    background-color: firebrick;
+    color: aliceblue;
+}
+table{
+    border: 3px solid rgba(195,100,51,0.98);
+    font-family: "Calibri Light";
+}
+th{
+    font-family: Calibri;
+    background-color: moccasin;
+    border: 1px solid black;
+}
+tr{
+    background-color: darkgray;
+
+}
+td{
+    border: 0.5px solid black;
+}
+
+span{
+    background-color: peru;
+    color: white;
+}
+div{
+    border: 2px firebrick;
+    position: absolute;
+    width: 300px;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    top: 2700px;
+    right: 20px;
+}
+.redText{
+    color: firebrick;
+}
+
+.greenText{
+    color:yellowgreen;
+}
+#gryffindor{
+    border: 2px solid firebrick;
+    background-color: gold;
+    color: firebrick;
+    position: absolute;
+    top:3300px;
+    left:100px;
+}
+
+#hufflepuff{
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+    position: absolute;
+    top:3300px;
+    left:400px;
+}

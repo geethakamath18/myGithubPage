@@ -1,0 +1,330 @@
+.bg
+{
+    background-color: rgb(16,16,16);
+}
+
+.a1
+{
+    position: absolute;
+    alignment: left;
+    left: 5%;
+    top: 30%;
+    height: 600px;
+    /*padding: 20px;*/
+    /*height: 600px;*/
+    /*border: 2px white;*/
+
+}
+
+.c1
+{
+    position: absolute;
+    left: 35%;
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.c1 h2
+{
+    position: center;
+    width: inherit;
+    padding: 60px 20px 20px;
+    font-size: 25px;
+    font-family: Lato;
+    color: rgb(4,158,102);
+    text-align: left;
+
+}
+
+.c1 p
+{
+    position: relative;
+    padding: 10px 20px 20px;
+    font-family: Lato;
+    color: gray;
+    font-size: 20px;
+}
+
+.c1 h3
+{
+    position: relative;
+    padding: 30px 20px 20px;
+    font-family: Lato;
+    color: white;
+    font-weight:bold;
+    font-size: 40px;
+}
+.c2
+{
+    position: relative;
+    padding: 50px 20px 20px;
+    width: 100%;
+    overflow: hidden
+}
+
+.c2 h2
+{
+    width: inherit;
+    padding: 60px 20px 20px;
+    font-size: 25px;
+    font-family: Lato;
+    color: rgb(4,158,102);
+    text-align: left;
+    position: relative;
+
+}
+.c3
+{
+    position: relative;
+    width: 33.3%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.c3 img
+{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: white;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    #background: #E6E7ED no-repeat;
+    padding: 20px 20px 20px;
+    left: 27.5%;
+}
+
+.c3 p
+{
+    position: relative;
+    text-align: center;
+    color: gray;
+    font-family: Lato;
+    font-size: 20px;
+    /*width: inherit;*/
+    padding: inherit;
+}
+
+.c3 h3
+{
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-size: 30px;
+
+}
+
+.bg h6
+{
+    position: center;
+    width: 100%;
+    padding: 60px 20px 20px;
+    font-size: 20px;
+    font-family: Lato;
+    color: gray;
+    text-align: center;
+}
+
+.bg h1
+{
+    position: center;
+    width: 100%;
+    top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Lato;
+    color: white;
+    text-align: center;
+}
+
+.c4
+{
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.c4 img
+{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: white;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    #background: #E6E7ED no-repeat;
+    padding: 20px 20px 20px;
+    left: 35%;
+
+}
+
+.c4 p
+{
+    position: relative;
+    text-align: center;
+    color: gray;
+    font-family: Lato;
+    font-size: 20px;
+    /*width: inherit;*/
+    padding: inherit;
+}
+
+.c4 h3
+{
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-size: 30px;
+
+}
+
+.progress
+{
+    height:20px;
+    margin-bottom:20px;
+    overflow:hidden;
+    /*background-color:rgb(4,158,102);*/
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow:inset 0 1px 2px rgba(0,0,0,.1)
+}
+.progress-bar-python
+{
+    float:left;
+    width:560px !important;
+    height:100%;
+    font-family: Lato;
+    font-size:20px;
+    line-height:20px;
+    color:white;
+    text-align:center;
+    background-color:rgb(4,158,102);
+}
+
+.progress-bar-java
+{
+    float:left;
+    width:560px !important;
+    height:100%;
+    font-family: Lato;
+    font-size:20px;
+    line-height:20px;
+    color:white;
+    text-align:center;
+    background-color:rgb(4,158,102);
+}
+
+.progress-bar-c
+{
+    float:left;
+    width:490px !important;
+    height:100%;
+    font-family: Lato;
+    font-size:20px;
+    line-height:20px;
+    color:white;
+    text-align:center;
+    background-color:rgb(4,158,102);
+}
+
+.progress-bar-sql
+{
+    float:left;
+    width:490px !important;
+    height:100%;
+    font-family: Lato;
+    font-size:20px;
+    line-height:20px;
+    color:white;
+    text-align:center;
+    background-color:rgb(4,158,102);
+}
+
+.progress-bar-html
+{
+    float:left;
+    width: 420px !important;
+    height:100%;
+    font-family: Lato;
+    font-size:20px;
+    line-height:20px;
+    color:white;
+    text-align:center;
+    background-color:rgb(4,158,102);
+}
+
+.progress-bar-css
+{
+    float:left;
+    width:420px !important;
+    height:100%;
+    font-family: Lato;
+    font-size:20px;
+    line-height:20px;
+    color: white;
+    text-align:center;
+    background-color:rgb(4,158,102);
+}
+.c5-left
+{
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 40px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Lato;
+    color: white;
+}
+
+.c5-right
+{
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 40px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Lato;
+    color: white;
+}
+
+.back
+{
+  background-color:transparent;
+  position: relative;
+  padding: 50px 30px 10px;
+}
+
+.back a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.back a:hover {
+  background-color: white;
+    opacity: 0.1;
+}

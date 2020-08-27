@@ -1,0 +1,307 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image1 {
+  background-image: url("aurora.jpg");
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+tr {
+  transform: scale(1);
+}
+td {
+  position: absolute;
+  top:0;
+  right:0
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+span
+{
+        background: -webkit-linear-gradient(white, #38495a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+}
+
+.circletag {
+    display: block;
+    width: 200px;
+    height: 200px;
+    /*top: 23%;*/
+    /*left: 44%;*/
+    align-content: center;
+    position: relative;
+    left: 42%;
+    /*-moz-border-radius: 20px;*/
+    /*-webkit-border-radius: 20px;*/
+    border-radius: 100%;
+    background: #E6E7ED url("geetha.jpg") no-repeat 60% 63%;
+}
+
+.navbar1 {
+  width: 75%;
+  background-color:transparent;
+  overflow: auto;
+  position: relative;
+  left: 33.5%;
+}
+
+.navbar1 a
+{
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navbar1 a:hover
+{
+  background-color: white;
+  opacity: 0.1;
+}
+
+navbar1 a:active
+{
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+/*.active {*/
+/*  background-color: #4CAF50;*/
+/*}*/
+
+.container
+{
+    position: relative;
+    background-color: rgb(56,56,56);
+    /*width: 100%;*/
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar2
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar2 a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar2 a:hover {
+  background-color: white;
+    opacity: 0.1;
+}
+
+.a1
+{
+    position: absolute;
+    alignment: left;
+    left: 5%;
+    top: 30%;
+    height: 600px;
+    /*padding: 20px;*/
+    /*height: 600px;*/
+    /*border: 2px white;*/
+
+}
+
+.c1
+{
+    position: absolute;
+    left: 35%;
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.c1 h2
+{
+    position: center;
+    width: inherit;
+    padding: 60px 20px 20px;
+    font-size: 25px;
+    font-family: Lato;
+    color: rgb(4,158,102);
+    text-align: left;
+
+}
+
+.c1 p
+{
+    position: relative;
+    padding: 10px 20px 20px;
+    font-family: Lato;
+    color: gray;
+    font-size: 20px;
+}
+
+.c1 h3
+{
+    position: relative;
+    padding: 30px 20px 20px;
+    font-family: Lato;
+    color: white;
+    font-weight:bold;
+    font-size: 40px;
+}
+.c2
+{
+    position: relative;
+    padding: 50px 20px 20px;
+    /*padding: 60px 30px 30px;*/
+    width: 100%;
+}
+
+.c2 h2
+{
+    width: inherit;
+    /*padding-bottom: 50px;*/
+    font-size: 25px;
+    font-family: Lato;
+    color: rgb(4,158,102);
+    text-align: left;
+    position: absolute;
+
+}
+.c3
+{
+    position: relative;
+    width: 33.3%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    /*text-align: center;*/
+    /*color: gray;*/
+    /*font-family: Lato;*/
+    /*font-size: 20px;*/
+}
+
+.c3 img
+{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border: white;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    #background: #E6E7ED no-repeat;
+    padding: 20px 20px 20px;
+
+}
+
+.c3 p
+{
+    position: relative;
+    text-align: center;
+    color: gray;
+    font-family: Lato;
+    font-size: 20px;
+    width: inherit;
+    padding: inherit;
+}
+
+.c3 h3
+{
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-size: 30px;
+
+}
+
+.bg
+{
+    background-color: rgb(16,16,16);
+}
+
+.bg h6
+{
+    position: center;
+    width: 100%;
+    padding: 60px 20px 20px;
+    font-size: 20px;
+    font-family: Lato;
+    color: gray;
+    text-align: center;
+}
+
+
+.bg h1
+{
+    position: center;
+    width: 100%;
+    top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Lato;
+    color: white;
+    text-align: center;
+}
+
+.back
+{
+  width: 15%;
+  background-color:transparent;
+  position: relative;
+  left: 5%;
+  top: 5%;
+}
+
+.back a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.back a:hover {
+  background-color: white;
+    opacity: 0.1;
+}
