@@ -6,7 +6,7 @@
 .a1
 {
     position: absolute;
-    alignment: left;
+    /* align: left;*/ 
     left: 5%;
     top: 30%;
     height: 600px;
@@ -95,7 +95,7 @@
     position: relative;
     text-align: center;
     border-radius: 100%;
-    #background: #E6E7ED no-repeat;
+    /* background: #E6E7ED no-repeat; */
     padding: 20px 20px 20px;
     left: 27.5%;
 }
@@ -165,7 +165,7 @@
     position: relative;
     text-align: center;
     border-radius: 100%;
-    #background: #E6E7ED no-repeat;
+    /* background: #E6E7ED no-repeat; */
     padding: 20px 20px 20px;
     left: 35%;
 
@@ -310,21 +310,89 @@
 
 .back
 {
-  background-color:transparent;
-  position: relative;
-  padding: 50px 30px 10px;
+    background-color:transparent;
+    position: relative;
+    padding: 50px 30px 10px;
 }
 
 .back a {
-  float: left;
-  text-align: center;
-  padding: 15px;
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .back a:hover {
-  background-color: white;
+    background-color: white;
     opacity: 0.1;
+}
+
+footer
+{
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+hr
+{
+    
+    width:  30%;
+    opacity: 0.3;
+    align-content: center;
+    color: grey;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4,158,102);
+    display: inline-block;
+    position: relative;
+}
+
+/* .circle .big {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 100px;
+    left: 30%;
+
+} */
+
+.circle .one {
+    left: -25px;
+    top: -25px;
+}
+
+.circle .two {
+    top: -60px;
+    left: 50px;
+}
+
+.circle .three {
+    right: -25px;
+    top: -25px;
+}
+
+
+.circle .four {
+    left: -25px;
+    bottom: -25px;
+}
+
+.circle .five {
+    bottom: -60px;
+    left: 50px;
+}
+
+.circle .six {
+    right: -25px;
+    bottom: -25px;
 }
